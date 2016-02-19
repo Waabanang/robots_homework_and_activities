@@ -17,6 +17,10 @@ def clearStall():
     isStalled = getStall()
     return(100 * isStalled, 180)
     
+def backSensor(whichSensor = "left", angle = 90):
+    isBehind = getIR()
+    return(50 * isBhehind, angle)
+    
     
 def runDemo(time = 120):
     """This function is really a model to be modified.  It shows how to take a make
@@ -29,7 +33,8 @@ def runDemo(time = 120):
     brain.add( obstBehavBuilder("left", 270) )
     brain.add( obstBehavBuilder("right", 90) ) 
     brain.add( clearStall )
-    
+    brain.add( backSensor())
+    brain.add( backSensor("right", 270) )
 
     for t in timer(time):
         print("======================================")
