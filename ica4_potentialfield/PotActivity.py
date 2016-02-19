@@ -17,12 +17,15 @@ def clearStall():
     isStalled = getStall()
     return(100 * isStalled, 180)
     
-def backSensor(whichSensor = "left", angle = 90):
-    isBehind = getIR()
-    return(50 * isBhehind, angle)
+def backSensorBuilder(whichSensor = "left", angle = 90):
+    def backSensor():
+        isBehind = 50 if getIR(whichSensor)==0 else 0
+        print(whichSensor, isBehind)
+        return(isBehind, angle)
+    return backSensor
     
     
-def runDemo(time = 120):
+def runDemo(time = 60):
     """This function is really a model to be modified.  It shows how to take a make
     a PotentialFieldBrain, add behaviors to the brain, and then run it for the given time."""
     # add behaviors, in order from lowest to hightest
@@ -33,8 +36,8 @@ def runDemo(time = 120):
     brain.add( obstBehavBuilder("left", 270) )
     brain.add( obstBehavBuilder("right", 90) ) 
     brain.add( clearStall )
-    brain.add( backSensor())
-    brain.add( backSensor("right", 270) )
+    brain.add( backSensorBuilder())
+    brain.add( backSensorBuilder("right", 270) )
 
     for t in timer(time):
         print("======================================")
