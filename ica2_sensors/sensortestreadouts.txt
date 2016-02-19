@@ -1,0 +1,61 @@
+Waab, Brooke, Taylor 
+
+#On top of table 1#
+Light value is:  563 at pos:  0
+Light value is:  811 at pos:  1
+Light value is:  1552 at pos:  2
+Brightness is:  [1718362, 1847994, 1741536]
+IR value is :  1 at pos:  0
+IR value is :  1 at pos:  1
+IR value is :  None at pos:  2
+Distance From Obstacle is:  0 at pos:  0
+Distance From Obstacle is:  0 at pos:  1
+Distance From Obstacle is:  761 at pos:  2
+Light value is:  550 at pos:  0
+Light value is:  812 at pos:  1
+Light value is:  1552 at pos:  2
+
+#On top of table 2 (didn’t move)#
+Light value is:  546 at pos:  0
+Light value is:  820 at pos:  1
+Light value is:  1587 at pos:  2
+Brightness is:  [1695088, 1811294, 1769865]
+IR value is :  1 at pos:  0
+IR value is :  1 at pos:  1
+IR value is :  None at pos:  2
+Distance From Obstacle is:  1058 at pos:  0
+Distance From Obstacle is:  345 at pos:  1
+Distance From Obstacle is:  1072 at pos:  2
+Light value is:  545 at pos:  0
+Light value is:  820 at pos:  1
+Light value is:  1584 at pos:  2
+
+#Under table 1#
+Light value is:  35477 at pos:  0
+Light value is:  0 at pos:  1
+Light value is:  0 at pos:  2
+Brightness is:  [1540883, 1397495, 1300198]
+IR value is :  1 at pos:  0
+IR value is :  0 at pos:  1
+IR value is :  None at pos:  2
+Distance From Obstacle is:  0 at pos:  0
+Distance From Obstacle is:  0 at pos:  1
+Distance From Obstacle is:  0 at pos:  2
+Light value is:  46118 at pos:  0
+Light value is:  0 at pos:  1
+Light value is:  0 at pos:  2
+
+#Under table 2 (rotated it 90)#
+Light value is:  2169 at pos:  0
+Light value is:  1556 at pos:  1
+Light value is:  3362 at pos:  2
+Brightness is:  [1086354, 841637, 732254]
+IR value is :  1 at pos:  0
+IR value is :  1 at pos:  1
+IR value is :  None at pos:  2
+Distance From Obstacle is:  1100 at pos:  0
+Distance From Obstacle is:  957 at pos:  1
+Distance From Obstacle is:  799 at pos:  2
+Light value is:  2530 at pos:  0
+Light value is:  1650 at pos:  1
+Light value is:  3366 at pos:  2
